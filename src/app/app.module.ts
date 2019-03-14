@@ -19,6 +19,7 @@ import { AuthGuard } from './components/security/auth.guard';
 import { UserNewComponent } from './components/user-new/user-new.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { TicketNewComponent } from './components/ticket-new/ticket-new.component';
+import { TicketListComponent } from './components/ticket-list/ticket-list.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TicketNewComponent } from './components/ticket-new/ticket-new.component
     LoginComponent,
     UserNewComponent,
     UserListComponent,
-    TicketNewComponent
+    TicketNewComponent,
+    TicketListComponent
   ],
   imports: [
     BrowserModule,
